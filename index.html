@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">  
+    <title>Maquetacion </title>
+
+</head>
+<body>
+    <header class="header">
+        <section class="container">
+            <ul class="subContainer menu-left">
+                <li><a href="#" class="logo">Logo</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Task</a></li>
+                <li><a href="#">Reporting</a></li>
+                <li><a href="#">Users</a></li>
+            </ul>
+            <button class="menu-btn">
+                <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.666656 0H27.3333V3.33333H0.666656V0ZM0.666656 8.33333H27.3333V11.6667H0.666656V8.33333ZM0.666656 16.6667H27.3333V20H0.666656V16.6667Z" fill="#151D3B"/>
+                </svg>
+            </button>
+            <nav class="menu menu-rigth">
+                <li><a href="#"><span class="icon-search"></span></a></li>
+                <li><a href="#"><span class="icon-cog"></span></a></li>
+                <li><a href="#"><span class="icon-bell"></span></a></li>
+                <li><a href="#"><img src="./images/pexels-arianna-jadé-4754648.jpg" alt="avatar profile"></a></li>
+            </nav>
+        </section>
+    </header>
+    <main class="container">
+        <section class="hero ">
+            <div class="hero-container-add">
+                <h1>Team members</h1>
+                <button class="hero-container-add-button"><span class="icon-plus"></span>Add team member</button>
+            </div>
+            <p>Manage your team members and their account permission here.</p>
+            <div class="hero-container-navigation">
+                <button class="hero-container-navigation-button-left">My details</button>
+                <button>Profile</button>
+                <button>Password</button>
+                <button>Team</button>
+                <button>Plan</button>
+                <button>Billing</button>
+                <button>Notification</button>
+                <button>Integrations</button>
+                <button class="hero-container-navigation-button-rigth">API</button>
+            </div>
+        </section>
+        <section class="cards">
+            <aside class="cards-title">
+                <p><b>Admin users</b> <br>
+                Admins can add and remove users and <br> manage organization-level settings.</p>
+            </aside>
+            <article>
+                <div class="container-table">
+                    <div class="table-header subContainer table-left table-item-left">
+                        <label for="name" class="subContainer container-label">
+                            <input id="name" value="name" name="name" type="checkbox">
+                            <p id="name">Name</p>
+                        </label>
+                    </div>
+                    <div class="table-header subContainer">
+                        <p> Date added </p>
+                    </div>
+                    <div class="table-header subContainer">
+                        <p> Last active </p>
+                    </div>
+                    <div class="table-header table-item-rigth"></div>
+                    <div class="table-item table-left subContainer">
+                        <label for="Olivia" class="container-label">
+                            <input id="Olivia" value="Olivia" name="Olivia" type="checkbox">
+                            <img src="./images/pexels-arianna-jadé-4754648.jpg" alt="avatar profile">
+                        </label>
+                        <div class="subContainer">
+                            <p class="item-negrita">Olivia Rhye</p>
+                            <p>OliviaRhye@untitledui.com</p>
+                        </div>
+                    </div>
+                    <div class="table-item subContainer">
+                        <p>Feb 22, 2022</p>
+                    </div>
+                    <div class="table-item subContainer ">
+                        <p>Mar 14, 2022</p>
+                    </div>
+                    <div class="table-item subContainer">
+                        <span class="icon-bin2"></span>
+                        <span class="icon-pencil"></span>
+                    </div>
+                    <div class="table-item table-left subContainer item-background-gray">
+                        <label for="Phoenix" class="container-label">
+                            <input id="Phoenix" value="Phoenix" name="Phoenix" type="checkbox">
+                            <img src="./images/pexels-daniel-nettesheim-1162361.jpg" alt="avatar profile">
+                        </label>
+                        <div class="subContainer">
+                            <p class="item-negrita">Phoenix Baker</p>
+                            <p>PhoenixBaker@untitledui.com</p>
+                        </div>
+                    </div>
+                    <div class="table-item subContainer item-background-gray">
+                        <p>Feb 22, 2022</p>
+                    </div>
+                    <div class="table-item subContainer item-background-gray">
+                        <p>Mar 14, 2022</p>
+                    </div>
+                    <div class="table-item subContainer item-background-gray">
+                        <span class="icon-bin2"></span>
+                        <span class="icon-pencil"></span>
+                    </div>
+                    <div class="table-item table-left subContainer">
+                        <label for="Lana" class="container-label">
+                            <input id="Lana" value="Lana" name="Lana" type="checkbox">
+                            <img src="./images/pexels-katie-e-3671083.jpg" alt="avatar profile">
+                        </label>
+                        <div class="subContainer">
+                            <p class="item-negrita">Lana Steiner </p>
+                            <p>LanaSteiner@untitledui.com</p>
+                        </div>
+                    </div>
+                    <div class="table-item subContainer">
+                        <p>Feb 22, 2022</p>
+                    </div>
+                    <div class="table-item subContainer">
+                        <p>Mar 14, 2022</p>
+                    </div>
+                    <div class="table-item subContainer">
+                        <span class="icon-bin2"></span>
+                        <span class="icon-pencil"></span>
+                    </div>
+                    <div class="table-item table-left subContainer item-background-gray">
+                        <label for="Demi" class="container-label">
+                            <input id="Demi" value="Demi" name="Demi" type="checkbox">
+                            <img src="./images/pexels-mateus-souza-3586798.jpg" alt="avatar profile">
+                        </label>
+                        <div class="subContainer">
+                            <p class="item-negrita">Demi Wikinson</p>
+                            <p>DemiWikinson@untitledui.com</p>
+                        </div>
+                    </div>
+                    <div class="table-item subContainer item-background-gray">
+                        <p>Feb 22, 2022</p>
+                    </div>
+                    <div class="table-item subContainer item-background-gray">
+                        <p>Mar 14, 2022</p>
+                    </div>
+                    <div class="table-item subContainer item-background-gray">
+                        <span class="icon-bin2"></span>
+                        <span class="icon-pencil"></span>
+                    </div>
+                    <div class="table-item table-left subContainer table-item-border-left">
+                        <label for="logo" class="container-label">
+                            <input id="logo" value="logo" name="logo" type="checkbox">
+                            <img src="./images/pexels-yogendra-singh-3748221.jpg" alt="avatar profile">
+                        </label>
+                        <div class="subContainer">
+                            <p class="item-negrita">Candidate wou</p>
+                            <p>Candidatewou@untitledui.com</p>
+                        </div>
+                    </div>
+                    <div class="table-item subContainer">
+                        <p>Feb 22, 2022</p>
+                    </div>
+                    <div class="table-item subContainer">
+                        <p>Mar 14, 2022</p>
+                    </div>
+                    <div class="table-item subContainer table-item-border-rigth">
+                        <span class="icon-bin2"></span>
+                        <span class="icon-pencil"></span>
+                    </div>
+                </div>
+            </article>
+            
+        </section> 
+        <hr />
+        <section class="cards">
+            <aside class="cards-title">
+                <p><b>Admin users</b> <br>
+                Admins can add and remove users and <br> manage organization-level settings.</p>
+            </aside>
+            <article>
+                <div class="container-table">
+                    <div class="table-header subContainer table-left table-item-left">
+                        <label for="name2" class="subContainer container-label">
+                            <input id="name2" value="name2" name="name2" type="checkbox">
+                            <p id="name2">Name</p>
+                        </label>
+                    </div>
+                    <div class="table-header subContainer">
+                        <p> Date added </p>
+                    </div>
+                    <div class="table-header subContainer">
+                        <p> Last active </p>
+                    </div>
+                    <div class="table-header table-item-rigth"></div>
+                    <div class="table-item table-left subContainer">
+                        <label for="Olivia2" class="container-label">
+                            <input id="Olivia2" value="Olivia2" name="Olivia2" type="checkbox">
+                            <img src="./images/pexels-arianna-jadé-4754648.jpg" alt="avatar profile">
+                        </label>
+                        <div class="subContainer">
+                            <p class="item-negrita">Olivia Rhye</p>
+                            <p>OliviaRhye@untitledui.com</p>
+                        </div>
+                    </div>
+                    <div class="table-item subContainer">
+                        <p>Feb 22, 2022</p>
+                    </div>
+                    <div class="table-item subContainer ">
+                        <p>Mar 14, 2022</p>
+                    </div>
+                    <div class="table-item subContainer">
+                        <span class="icon-bin2"></span>
+                        <span class="icon-pencil"></span>
+                    </div>
+                    <div class="table-item table-left subContainer item-background-gray">
+                        <label for="Phoenix2" class="container-label">
+                            <input id="Phoenix2" value="Phoenix2" name="Phoenix2" type="checkbox">
+                            <img src="./images/pexels-daniel-nettesheim-1162361.jpg" alt="avatar profile">
+                        </label>
+                        <div class="subContainer">
+                            <p class="item-negrita">Phoenix Baker</p>
+                            <p>PhoenixBaker@untitledui.com</p>
+                        </div>
+                    </div>
+                    <div class="table-item subContainer item-background-gray">
+                        <p>Feb 22, 2022</p>
+                    </div>
+                    <div class="table-item subContainer item-background-gray">
+                        <p>Mar 14, 2022</p>
+                    </div>
+                    <div class="table-item subContainer item-background-gray">
+                        <span class="icon-bin2"></span>
+                        <span class="icon-pencil"></span>
+                    </div>
+                    <div class="table-item table-left subContainer">
+                        <label for="Lana2" class="container-label">
+                            <input id="Lana2" value="Lana2" name="Lana2" type="checkbox">
+                            <img src="./images/pexels-katie-e-3671083.jpg" alt="avatar profile">
+                        </label>
+                        <div class="subContainer">
+                            <p class="item-negrita">Lana Steiner </p>
+                            <p>LanaSteiner@untitledui.com</p>
+                        </div>
+                    </div>
+                    <div class="table-item subContainer">
+                        <p>Feb 22, 2022</p>
+                    </div>
+                    <div class="table-item subContainer">
+                        <p>Mar 14, 2022</p>
+                    </div>
+                    <div class="table-item subContainer">
+                        <span class="icon-bin2"></span>
+                        <span class="icon-pencil"></span>
+                    </div>
+                    <div class="table-item table-left subContainer item-background-gray">
+                        <label for="Demi2" class="container-label">
+                            <input id="Demi2" value="Demi2" name="Demi2" type="checkbox">
+                            <img src="./images/pexels-mateus-souza-3586798.jpg" alt="avatar profile">
+                        </label>
+                        <div class="subContainer">
+                            <p class="item-negrita">Demi Wikinson</p>
+                            <p>DemiWikinson@untitledui.com</p>
+                        </div>
+                    </div>
+                    <div class="table-item subContainer item-background-gray">
+                        <p>Feb 22, 2022</p>
+                    </div>
+                    <div class="table-item subContainer item-background-gray">
+                        <p>Mar 14, 2022</p>
+                    </div>
+                    <div class="table-item subContainer item-background-gray">
+                        <span class="icon-bin2"></span>
+                        <span class="icon-pencil"></span>
+                    </div>
+                    <div class="table-item table-left subContainer table-item-border-left">
+                        <label for="logo2" class="container-label">
+                            <input id="logo2" value="logo2" name="logo2" type="checkbox">
+                            <img src="./images/pexels-yogendra-singh-3748221.jpg" alt="avatar profile">
+                        </label>
+                        <div class="subContainer">
+                            <p class="item-negrita">Candidate wou</p>
+                            <p>Candidatewou@untitledui.com</p>
+                        </div>
+                    </div>
+                    <div class="table-item subContainer">
+                        <p>Feb 22, 2022</p>
+                    </div>
+                    <div class="table-item subContainer">
+                        <p>Mar 14, 2022</p>
+                    </div>
+                    <div class="table-item subContainer table-item-border-rigth">
+                        <span class="icon-bin2"></span>
+                        <span class="icon-pencil"></span>
+                    </div>
+                </div>
+            </article>
+        </section> 
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
